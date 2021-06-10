@@ -1,0 +1,8 @@
+name: pockexport
+services:
+  cli:
+    type: python:3.7
+    install_dependencies_as_root:
+      - apt-get update -y
+    build:
+      - pip install requirements.txt
