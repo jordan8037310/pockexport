@@ -163,3 +163,4 @@ dmypy.json
 secrets.py
 .env
 !.env.dist
+venv
